@@ -18,7 +18,7 @@ network Tictoc1
         tic: Txc1;
         toc: Txc1;
     connections:
-        tic.out --> {  datarate=1Mbps; } --> toc.in;// Setting the channel rate to 1 Mbps
-        tic.in <-- {  datarate=1Mbps; } <-- toc.out;
+        tic.out --> {  datarate=8Mbps; } --> toc.in;// Setting the channel rate to 1 MBps
+        tic.in <-- {  datarate=8Mbps; } <-- toc.out;
 }
 
