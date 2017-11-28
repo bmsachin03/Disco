@@ -28,7 +28,7 @@ void Txc1::initialize()
         // arbitrary string which will be the name of the message object.
         //cMessage *msg = new cMessage("tictocMsg");
         cPacket *msg = new cPacket("msg 512");
-        msg->setByteLength (524800); // setting packet size for 512 kbytes
+        msg->setByteLength (524288); // setting packet size for 512 kbytes
         send(msg, "out");
     }
 }
